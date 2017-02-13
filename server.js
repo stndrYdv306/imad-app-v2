@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 var articleOne={
   title:'Article one | Satyendra Yadav',
-  Heading:'Article One',
+  heading:'Article One',
   date:'February 11,2017',
   content:  `<p>
             This is my first article with the help of IMAD . so the content of this article is described below as:
@@ -28,7 +28,8 @@ var title=data.title;
 var date=data.date;
 var heading=data.heading;
 var content=data.content;
-var htmlTemplate=`<html>
+var htmlTemplate=`
+<html>
  <head>
      <title>
          ${title}
