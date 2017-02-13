@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 var articleOne={
   title:'Article one | Satyendra Yadav',
-  heading:'Article One',
+  heading:'ArticleOne',
   date:'February 11,2017',
   content:  `<p>
             This is my first article with the help of IMAD . so the content of this article is described below as:
